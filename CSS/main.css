@@ -45,9 +45,15 @@ html{
     font-size: 5rem;
 
 }
-.linkby{
+.linkby a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    margin-left:1rem;
+
+}
+.linkby a:hover{
+    color: rgb(139, 136, 136);
+
 }
 .ali{
     background-image: url(../img/model\ s.jpg);
@@ -65,5 +71,22 @@ html{
     color: black;
     text-align:center;
     
+    
+}
+.model3{
+    background-image: url(../img/6f1f00600e3c7b35d72b7504ad90aa63.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 10px);
+}
+.mode3{
+    color: black;
+    text-align:justify;
+}
+.mod3{
+    color: black;
+    text-align:center;
     
 }
